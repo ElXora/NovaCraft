@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base theme: no title bar, edge-to-edge ready -->
+    <style name="Theme.NovaCraftLauncher" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/nova_purple</item>
+        <item name="colorPrimaryVariant">@color/nova_blue</item>
+        <item name="colorAccent">@color/nova_cyan</item>
+        <item name="android:windowBackground">@color/nova_background</item>
+        <item name="android:statusBarColor">@color/nova_background</item>
+        <item name="android:navigationBarColor">@color/nova_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- Splash screen theme using core-splashscreen -->
+    <style name="Theme.NovaCraftLauncher.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/nova_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_splash</item>
+        <item name="windowSplashScreenAnimationDuration">600</item>
+        <item name="postSplashScreenTheme">@style/Theme.NovaCraftLauncher</item>
+    </style>
+
+    <!-- Full-screen game theme -->
+    <style name="Theme.NovaCraftLauncher.Game" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+
+</resources>

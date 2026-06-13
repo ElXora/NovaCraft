@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- External files dir for screenshots and exports -->
+    <external-files-path name="external_files" path="." />
+    <!-- Internal files for JRE and game data -->
+    <files-path name="internal_files" path="." />
+    <!-- Cache for temp downloads -->
+    <cache-path name="cache" path="." />
+    <!-- External storage (requires MANAGE_EXTERNAL_STORAGE on API 30+) -->
+    <external-path name="external_storage" path="NovaCraft/" />
+</paths>

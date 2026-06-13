@@ -1,0 +1,32 @@
+{
+  "comment": "NovaCraft JRE manifest — lists the preferred Adoptium JRE builds for Android AArch64.",
+  "runtimes": [
+    {
+      "majorVersion": 8,
+      "vendor": "Eclipse Adoptium",
+      "architecture": "aarch64",
+      "apiUrl": "https://api.adoptium.net/v3/assets/latest/8/hotspot?architecture=aarch64&image_type=jre&os=linux",
+      "minMcVersion": "1.0",
+      "maxMcVersion": "1.17.1",
+      "recommendedHeapMb": 1024
+    },
+    {
+      "majorVersion": 17,
+      "vendor": "Eclipse Adoptium",
+      "architecture": "aarch64",
+      "apiUrl": "https://api.adoptium.net/v3/assets/latest/17/hotspot?architecture=aarch64&image_type=jre&os=linux",
+      "minMcVersion": "1.18.0",
+      "maxMcVersion": "1.20.4",
+      "recommendedHeapMb": 2048
+    },
+    {
+      "majorVersion": 21,
+      "vendor": "Eclipse Adoptium",
+      "architecture": "aarch64",
+      "apiUrl": "https://api.adoptium.net/v3/assets/latest/21/hotspot?architecture=aarch64&image_type=jre&os=linux",
+      "minMcVersion": "1.20.5",
+      "maxMcVersion": "99.99.99",
+      "recommendedHeapMb": 2048
+    }
+  ]
+}
